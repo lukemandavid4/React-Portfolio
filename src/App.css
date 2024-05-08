@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
+  font-family: "Montserrat", sans-serif;
 }
 :root{
   --color-bg: #1f1f38;
