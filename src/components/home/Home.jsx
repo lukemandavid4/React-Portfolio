@@ -1,3 +1,7 @@
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaDribbble } from "react-icons/fa";
+import './home.css'
 
 const Home = () => {
   return (
@@ -12,7 +16,16 @@ const Home = () => {
         <a href="#">Let&apos;s Talk</a>
       </div>
       <div className="home__image">
-        <img src="" alt="" />
+        <img src="../../src/assets/portfolio-removebg.png" alt="image" />
+      </div>
+      <div className="home__links">
+        <FaLinkedin />
+        <FaGithub />
+        <FaDribbble />
+        <div className="home__links--line"></div>
+      </div>
+      <div className="home__scroll">
+        <a href="#">Scroll Down</a>
       </div>
     </div>
   )

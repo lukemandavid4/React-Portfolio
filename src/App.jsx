@@ -10,7 +10,7 @@ import './App.css'
 
 const App = () => {
   return (
-    <>
+    <div className="container">
       <Home />
       <Navbar />
       <About />
@@ -19,7 +19,7 @@ const App = () => {
       <Testimonials />
       <Contact />
       <Footer />
-    </>
+    </div>
   )
 }
 

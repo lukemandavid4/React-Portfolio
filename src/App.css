@@ -21,3 +21,6 @@ body{
   background: var(--color-bg);
   color: var(--color-white);
 }
+.container{
+  padding: 0 max(20vw, 1rem);
+}
