@@ -22,5 +22,5 @@ body{
   color: var(--color-white);
 }
 .container{
-  padding: 0 max(20vw, 1rem);
+  padding: 0 max(15vw, 1rem);
 }

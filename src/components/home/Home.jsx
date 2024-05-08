@@ -12,16 +12,16 @@ const Home = () => {
         <p>Full-Stack Developer</p>
       </div>
       <div className="home__cv">
-        <a href="" download>Download CV</a>
-        <a href="#">Let&apos;s Talk</a>
+        <a href="" download id="cv">Download CV</a>
+        <a href="#" id="talk">Let&apos;s Talk</a>
       </div>
       <div className="home__image">
         <img src="../../src/assets/portfolio-removebg.png" alt="image" />
       </div>
       <div className="home__links">
-        <FaLinkedin />
-        <FaGithub />
-        <FaDribbble />
+        <a href="#"><FaLinkedin /></a>
+        <a href="#"><FaGithub /></a>
+        <a href="#"><FaDribbble /></a>
         <div className="home__links--line"></div>
       </div>
       <div className="home__scroll">
