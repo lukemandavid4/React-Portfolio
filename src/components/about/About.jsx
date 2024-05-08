@@ -1,3 +1,6 @@
+import { FaAward } from "react-icons/fa6";
+import { GoPeople } from "react-icons/go";
+import { VscFolderLibrary } from "react-icons/vsc";
 import './about.css'
 
 const About = () => {
@@ -12,14 +15,17 @@ const About = () => {
         <div className="about__center--right">
           <div className="right__top">
             <div>
+              <FaAward className="icon"/>
               <h6>Experience</h6>
               <p>3+ Years Working</p>
             </div>
             <div>
+              <GoPeople className="icon"/>
               <h6>Clients</h6>
               <p>50+ Coutrywide</p>
             </div>
             <div>
+              <VscFolderLibrary className="icon"/>
               <h6>Projects</h6>
               <p>50+ Completed</p>
             </div>
