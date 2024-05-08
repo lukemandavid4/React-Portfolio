@@ -1,0 +1,35 @@
+.about{
+  padding: 2rem;
+  text-align: center;
+}
+.about h4{
+  color: var(--color-light);
+  font-size: 0.8rem;
+}
+.about h1{
+  color: var(--color-primary);
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+.about__center{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.about__center--left{
+  width: 20rem;
+  background: linear-gradient(45deg, #4db4ff, #2596be, #2c2c6c, transparent);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__center--left img{
+  width: 20rem;
+  border-radius: 1rem;
+  transform: rotate(5deg);
+  transition: 0.3s transform;
+}
+.about__center--left img:hover{
+  transform: rotate(0deg);
+}
