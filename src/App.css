@@ -22,6 +22,14 @@ body{
   color: var(--color-white);
   background-image: url('../src/assets/bg-texture.png');
 }
+::-webkit-scrollbar{
+  display: none;
+}
 .container{
   padding: 0 max(15vw, 1rem);
+}
+@media screen and (max-width: 1500px){
+  .container{
+    padding: 0 max(5vw, 1rem);
+  }
 }

@@ -1,0 +1,68 @@
+.experiences h4{
+  color: var(--color-light);
+  font-size: 0.8rem;
+  text-align: center;
+}
+.experiences h1{
+  color: var(--color-primary);
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.experiences__center{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.experiences__center--left, .experiences__center--right{
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-variant);
+  border-radius: 1rem;
+  padding: 1.5rem 3.5rem;
+  flex-basis: calc(50% - 10px);
+}
+.experiences__center--left h1, .experiences__center--right h1{
+  font-size: 1.2rem;
+}
+.experiences__left--down, .experiences__right--down{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+.experiences__center--one{
+  flex-basis: calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.experiences__center--one div{
+  display: flex;
+  gap: 0.5rem;
+}
+.experiences__center--one div span{
+  color: var(--color-primary);
+}
+.experiences__center--one div p{
+  color: var(--color-white);
+  font-size: 1rem;
+}
+.experiences__center--one p{
+  color: var(--color-light);
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 850px){
+  .experiences__center{
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .experiences__center--left, .experiences__center--right{
+    flex-basis: calc(100% - 10px);
+  }
+}
+@media screen and (max-width: 500px){
+  .experiences__center--left, .experiences__center--right{
+    padding: 1.5rem 1.5rem;
+  }
+}
