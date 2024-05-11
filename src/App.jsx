@@ -10,16 +10,18 @@ import './App.css'
 
 const App = () => {
   return (
-    <div className="container">
-      <Home />
-      <Navbar />
-      <About />
-      <Experiences />
-      <Projects />
-      <Testimonials />
-      <Contact />
+    <>
+      <div className="container">
+        <Home />
+        <Navbar />
+        <About />
+        <Experiences />
+        <Projects />
+        <Testimonials />
+        <Contact />
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }
 

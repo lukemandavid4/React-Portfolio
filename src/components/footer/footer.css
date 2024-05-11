@@ -1,0 +1,24 @@
+.footer{
+  width: 100%;
+  background: var(--color-primary);
+  padding: 3rem max(15vw, 1rem);
+  text-align: center;
+  color: var(--color-bg-variant);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer h1{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.footer__links{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.footer__links a{
+  color: var(--color-bg-variant);
+  font-weight: 500;
+}
