@@ -8,11 +8,11 @@ import './navbar.css'
 const Navbar = () => {
   return (
     <div className="navbar">
-      <GrHomeRounded />
-      <IoPersonOutline />
-      <RiBook2Line />
-      <FaLaptopCode />
-      <BiMessageSquareDetail />
+      <a href="#home"><GrHomeRounded /></a>
+      <a href="#"><IoPersonOutline /></a>
+      <a href="#"><RiBook2Line /></a>
+      <a href="#"><FaLaptopCode /></a>
+      <a href="#"><BiMessageSquareDetail /></a>
     </div>
   )
 }

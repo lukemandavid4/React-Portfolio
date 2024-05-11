@@ -20,6 +20,7 @@ html{
 body{
   background: var(--color-bg);
   color: var(--color-white);
+  background-image: url('../src/assets/bg-texture.png');
 }
 .container{
   padding: 0 max(15vw, 1rem);
