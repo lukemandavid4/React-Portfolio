@@ -3,7 +3,7 @@
   background: var(--color-primary);
   padding: 3rem max(15vw, 1rem);
   text-align: center;
-  color: var(--color-bg-variant);
+  color: var(--color-bg);
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -19,6 +19,23 @@
   gap: 2rem;
 }
 .footer__links a{
-  color: var(--color-bg-variant);
+  color: var(--color-bg);
   font-weight: 500;
+}
+.footer__socials{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.footer__socials a{
+  color: var(--color-white);
+  padding: 0.8rem;
+  background: var(--color-bg);
+  border-radius: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__copyright p{
+  color: var(--color-bg);
 }

@@ -13,7 +13,7 @@ const Home = () => {
       </div>
       <div className="home__cv">
         <a href="../../src/assets/curriculum vitae.docx" download target="__blank" id="cv"  rel="noopener noreferrer">Download CV</a>
-        <a href="#" id="talk">Let&apos;s Talk</a>
+        <a href="#contact" id="talk">Let&apos;s Talk</a>
       </div>
       <div className="home__image">
         <img src="../../src/assets/portfolio-removebg.png" alt="image" />
@@ -25,7 +25,7 @@ const Home = () => {
         <div className="home__links--line"></div>
       </div>
       <div className="home__scroll">
-        <a href="#">Scroll Down</a>
+        <a href="#footer">Scroll Down</a>
       </div>
     </div>
   )

@@ -9,10 +9,10 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <a href="#home"><GrHomeRounded /></a>
-      <a href="#"><IoPersonOutline /></a>
-      <a href="#"><RiBook2Line /></a>
-      <a href="#"><FaLaptopCode /></a>
-      <a href="#"><BiMessageSquareDetail /></a>
+      <a href="#about"><IoPersonOutline /></a>
+      <a href="#experiences"><RiBook2Line /></a>
+      <a href="#projects"><FaLaptopCode /></a>
+      <a href="#contact"><BiMessageSquareDetail /></a>
     </div>
   )
 }
