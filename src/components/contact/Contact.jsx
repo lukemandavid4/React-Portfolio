@@ -13,7 +13,7 @@ const Contact = () => {
             <MdOutlineMail className="icon"/>
             <h4>Email</h4>
             <p>dmwangi595@gmail.com</p>
-            <a href="#">Send a message</a>
+            <a href="mailto:dmwangi595@gmail.com">Send a message</a>
           </div>
           <div className="contact__left--links">
             <MdOutlineWhatsapp className="icon"/>
