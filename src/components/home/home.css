@@ -87,3 +87,23 @@
 .home__scroll a{
   color: var(--color-primary);
 }
+@media screen and (max-width: 910px){
+  .home__image, .home__image img{
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 768px){
+  .home__links, .home__scroll{
+    display: none;
+  }
+}
+@media screen and (max-width: 750px){
+  .home__image, .home__image img{
+    width: 17rem;
+  }
+}
+@media screen and (max-width: 650px){
+  .home__image, .home__image img{
+    width: 14rem;
+  }
+}
