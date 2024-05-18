@@ -1,3 +1,8 @@
+.testimonials {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
 .testimonials h4{
   color: var(--color-light);
   font-size: 0.8rem;
@@ -9,12 +14,14 @@
   margin-bottom: 2rem;
   text-align: center;
 }
-.testimonials__center--top{
+.testimonials__center{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 1rem;
+  width: 50%;
 }
-.testimonial{
+.testimonial__center--one{
   background: var(--color-bg-variant);
   border-radius: 1rem;
   display: flex;
@@ -22,9 +29,9 @@
   gap: 1rem;
   align-items: center;
   padding: 2rem 3rem;
-  flex-basis: 50%;
+  width: 50%;
 }
-.testimonial div{
+.testimonial__center--one div{
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -34,27 +41,31 @@
   justify-content: center;
   overflow: hidden;
 }
-.testimonial div img{
+.swiper-slide div{
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.swiper-slide h5{
+  margin-bottom: 0.5rem;
+}
+.testimonial__center--one div img{
   width: 100%;
 }
-.testimonials__center{
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.testimonial p{
+.testimonial__center--one p{
   font-size: 0.9rem;
   color: var(--color-light);
   text-align: center;
 }
-.testimonials__center--bottom{
-  display: flex;
-  gap: 0.3rem;
-  justify-content: center;
-}
-.testimonials__center--bottom div{
-  width: 0.6rem;
-  height: 0.6rem;
+.swiper-pagination-clickable .swiper-pagination-bullet{
   background: var(--color-primary);
-  border-radius: 50%;
+}
+@media screen and (max-width: 1200px){
+  .testimonials__center{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 900px){
+  .testimonials__center{
+    width: 100%;
+  }
 }

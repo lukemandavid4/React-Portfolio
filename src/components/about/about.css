@@ -92,3 +92,16 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 768px){
+  .right__top{
+    flex-wrap: wrap;
+  }
+  .right__top div{
+    flex-basis: calc(50% - 10px);
+  }
+}
+@media screen and (max-width: 420px){
+  .right__top div{
+    flex-basis: calc(100%);
+  }
+}
