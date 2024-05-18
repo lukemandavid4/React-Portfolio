@@ -39,3 +39,8 @@
 .footer__copyright p{
   color: var(--color-bg);
 }
+@media screen  and (max-width: 650px){
+  .footer__links{
+    flex-direction: column;
+  }
+}
