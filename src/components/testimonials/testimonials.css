@@ -29,29 +29,13 @@
   height: 3rem;
   border-radius: 50%;
   outline: 3px solid var(--color-primary-variant);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
-.testimonial__one div{
-  background: url('../../assets/avatar1.jpg');
-  background-position: center;
-  background-size: cover;
-}
-.testimonial__two div{
-  background: url('../../assets/avatar2.jpg');
-  background-position: center;
-  background-size: cover;
-}
-.testimonial__three div{
-  background: url('../../assets/avatar3.jpg');
-  background-position: center;
-  background-size: cover;
-}
-.testimonial__four div{
-  background: url('../../assets/avatar4.jpg');
-  background-position: center;
-  background-size: cover;
-}
-.testimonial__two, .testimonial__three, .testimonial__four{
-  display: none;
+.testimonial div img{
+  width: 100%;
 }
 .testimonials__center{
   display: flex;
